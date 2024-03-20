@@ -1,17 +1,22 @@
-import React from "react";
+// Search.js
+import React from 'react';
 
-function Search() {
-  return (
+function Search({ onSearch }) {
+ const handleSearch = event => {
+    onSearch(event.target.value);
+ };
+
+ return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
       <input
         type="text"
         id="search"
         placeholder="Type a name to search..."
-        onChange={(e) => console.log("Searching...")}
+        onChange={handleSearch}
       />
     </div>
-  );
+ );
 }
 
 export default Search;

@@ -14,7 +14,7 @@
     },
     {
       "id": 3,
-      "name": "Pilea peperomioides",
+      "name": "bar",
       "image": "./images/pilea.jpg",
       "price": 5.99
     },
@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Green Snake House Plant",
+      "image": "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg",
+      "price": 49.95,
+      "id": 8
+    },
+    {
+      "name": "Green Cactus",
+      "image": "https://images.pexels.com/photos/3075987/pexels-photo-3075987.jpeg",
+      "price": 32.95,
+      "id": 9
     }
   ]
 }
