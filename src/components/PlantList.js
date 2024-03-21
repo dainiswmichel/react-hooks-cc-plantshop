@@ -1,15 +1,15 @@
-// PlantsList.js
+// File: PlantList.js
 import React from 'react';
 import PlantCard from './PlantCard';
 
-function PlantsList({ plants }) {
-  return (
+function PlantList({ plants, onPriceUpdate }) {
+ return (
     <ul className="cards">
       {plants.map(plant => (
-        <PlantCard key={plant.id} plant={plant} />
+        <PlantCard key={plant.id} plant={plant} onPriceUpdate={onPriceUpdate} />
       ))}
     </ul>
-  );
+ );
 }
 
-export default PlantsList;
+export default PlantList;
